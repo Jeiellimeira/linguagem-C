@@ -3,11 +3,13 @@
 
 int main()
 {
+
 int cont;
 
 float nota, total, media;
 
 total=0;
+
 
 for(cont=1;cont<=4;cont++){
     printf("insira as notas");
