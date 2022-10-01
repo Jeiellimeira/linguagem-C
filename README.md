@@ -4,6 +4,7 @@
 int main()
 {
 int cont;
+
 float nota, total, media;
 
 total=0;
