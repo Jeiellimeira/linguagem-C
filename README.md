@@ -12,9 +12,12 @@ total=0;
 
 
 for(cont=1;cont<=4;cont++){
-    printf("insira as notas");
-    scanf("%f",&nota);
-    total=total+nota;
+   
+   printf("insira as notas");
+   
+   scanf("%f",&nota);
+   
+   total=total+nota;
 }
 
 
