@@ -29,6 +29,7 @@ main ()
 
 
   printf ("\n a media do aluno e %0.2f", media);
-
+         
+         
   return 0;
 }
