@@ -1,32 +1,34 @@
 #include <stdio.h>
 
 
-int main()
+int
+main ()
 {
 
-int cont;
+  int cont;
 
-float nota, total, media;
+  float nota, total, media;
 
-total=0;
-
-
-for(cont=1;cont<=4;cont++){
-   
-   printf("insira as notas");
-   
-   scanf("%f",&nota);
-   
-   total=total+nota;
-}
+  total = 0;
 
 
+  for (cont = 1; cont <= 4; cont++)
+    {
 
-media = total/4;
+      printf ("insira as notas");
+
+      scanf ("%f", &nota);
+
+      total = total + nota;
+    }
 
 
 
-printf("\n a media do aluno e %0.2f", media);
+  media = total / 4;
 
-    return 0;
+
+
+  printf ("\n a media do aluno e %0.2f", media);
+
+  return 0;
 }
